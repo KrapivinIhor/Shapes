@@ -10,8 +10,8 @@ public class Main {
 
         List<Figure> figures = new ArrayList<>();
         figures.add(new Triangle(5.5));
-        figures.add(new Square(5));
-        figures.add(new Circle(5));
+        figures.add(new Square(3));
+        figures.add(new Circle(12));
         
         TransformToJSON.printAsJSON(figures);
         System.out.println("-------------------------");

@@ -14,18 +14,18 @@ public class TransformToJSON {
         for (Figure f : figures) {
             if (f instanceof Triangle){
                 System.out.println("\t" + "\"" + "shape: " + "\"" + "Triangle" + ',' + "\n"
-                + "\t" + "\"" + "side: " + "\"" + Triangle.getSide() + "\"" + ',' + "\n"
-                + "\t" + "\"" + "perimeter: " + "\"" + Triangle.getPerimeter() + "\"");
+                                 + "\t" + "\"" + "side: " + "\"" + Triangle.getSide() + "\"" + ',' + "\n"
+                                 + "\t" + "\"" + "perimeter: " + "\"" + Triangle.getPerimeter() + "\"");
             }
             else if (f instanceof Circle){
                 System.out.println("\t" + "\"" + "shape: " + "\"" + "Circle" + ',' + "\n"
-                        + "\t" + "\"" + "radius: " + "\"" + Circle.getRadius() + "\"" + ',' + "\n"
-                        + "\t" + "\"" + "perimeter: " + "\"" + Circle.getPerimeter() + "\"");
+                                 + "\t" + "\"" + "radius: " + "\"" + Circle.getRadius() + "\"" + ',' + "\n"
+                                 + "\t" + "\"" + "perimeter: " + "\"" + Circle.getPerimeter() + "\"");
             }
             else if (f instanceof Square){
                 System.out.println("\t" + "\"" + "shape: " + "\"" + "Square" + ',' + "\n"
-                        + "\t" + "\"" + "side: " + "\"" + Square.getSide() + "\"" + ',' + "\n"
-                        + "\t" + "\"" + "perimeter: " + "\"" + Square.getPerimeter() + "\"");
+                                 + "\t" + "\"" + "side: " + "\"" + Square.getSide() + "\"" + ',' + "\n"
+                                 + "\t" + "\"" + "perimeter: " + "\"" + Square.getPerimeter() + "\"");
             }
 
         }

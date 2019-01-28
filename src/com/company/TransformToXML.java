@@ -15,18 +15,18 @@ public class TransformToXML {
         for (Figure f : figures) {
             if (f instanceof Triangle){
                 System.out.println("\t" + "<KIND>" + "Triangle" + "</KIND>" + "\n" +
-                        "\t" + "<SIDE>" + Triangle.getSide() + "</SIDE>" + "\n" +
-                        "\t" + "<PERIMETER>" + Triangle.getPerimeter() + "</PERIMETER>");
+                                   "\t" + "<SIDE>" + Triangle.getSide() + "</SIDE>" + "\n" +
+                                   "\t" + "<PERIMETER>" + Triangle.getPerimeter() + "</PERIMETER>");
             }
             else if (f instanceof Circle){
                 System.out.println("\t" + "<KIND>" + "Circle" + "</KIND>" + "\n" +
-                        "\t" + "<RADIUS>" + Circle.getRadius() + "</RADIUS>" + "\n" +
-                        "\t" + "<PERIMETER>" + Circle.getPerimeter() + "</PERIMETER>");
+                                   "\t" + "<RADIUS>" + Circle.getRadius() + "</RADIUS>" + "\n" +
+                                   "\t" + "<PERIMETER>" + Circle.getPerimeter() + "</PERIMETER>");
             }
             else if (f instanceof Square){
                 System.out.println("\t" + "<KIND>" + "Triangle" + "</KIND>" + "\n" +
-                        "\t" + "<SIDE>" + Square.getSide() + "</SIDE>" + "\n" +
-                        "\t" + "<PERIMETER>" + Square.getPerimeter() + "</PERIMETER>");
+                                   "\t" + "<SIDE>" + Square.getSide() + "</SIDE>" + "\n" +
+                                   "\t" + "<PERIMETER>" + Square.getPerimeter() + "</PERIMETER>");
             }
 
         }
